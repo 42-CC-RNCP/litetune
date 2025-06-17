@@ -1,7 +1,8 @@
 {
     "name": "litetune",
     "build": {
-        "dockerfile": "Dockerfile"
+        "dockerfile": "Dockerfile",
+        "context": ".."
     },
     "runArgs": [
         "--privileged",
